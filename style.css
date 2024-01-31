@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.profile-image {
+    width: 100% ;
+    height: auto ;
+    border-radius: 50%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 900;
+    font-size: 1.8em;
+    order: 1;      
+}
+
+.navigation {
+    order: 3;      
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+.main {
+    padding: 100px 20px;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.center-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.center-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.main h2 {
+    color: #000000;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px; 
+    color: #4e9eff; 
+    font-size: 3em;
+    font-weight: 600;
+}
+
+
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1); 
+}
+
+
+.Social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Social-icons a {
+    color: #3a6cf4;
+    font-size: 2em;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.Social-icons a:hover {
+    color: #601cfc;
+}
